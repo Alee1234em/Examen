@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(tms.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.logo{
+    background-image: url(logonetflix.png);
+}
+.contenedor{
+    width: 85%;
+    margin: auto;
+}
+header{
+    padding: 30px 0;
+}
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*header .logo{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color:red;
+    font-size: 40px;
+}*/
+
+header nav a{
+    color: #aaa;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family:cursive;
+}
+
+
+header nav a:hover,
+header nav a.activo {
+    color:#fff
+}
+
+.pelicula-principal .fecha{
+    word-spacing: 0.5em;
+    
+    font-weight: normal;
+    font-size: 1.3em;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+    color: #fff;
+}
+
+.pelicula-principal .descripcion{
+    margin-top: 1em;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+    color: #fff;
+}
+.pelicula-principal .boton{
+    background: rgba(0,0,0, 0.5);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color:#fff;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 0.5em;
+    background-color: red;
+}
+
+.pelicula-principal .boton2{
+    background: rgba(0,0,0, 0.5);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color:#fff;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 0.9em;
+    background-color: red;
+}
+
+.pelicula-principal .boton3{
+    background: rgba(0,0,0, 0.5);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color:#fff;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 0.9em;
+    
+}
